@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295bb53acfd2b4ff28b0819d9a11810e, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}'
+    m_lastTimePsrt1: -94539264
+    m_lastTimePart2: -1999303290
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{B2122F03-198F-475D-866E-36C33E5AECFF}'
+    m_lastTimePsrt1: -94539264
+    m_lastTimePart2: -1999303290
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{D2D5EC3B-A9B2-403B-B526-0106A9757488}'
+    m_lastTimePsrt1: -94539264
+    m_lastTimePart2: -1999303290
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{DC695BBC-1FA1-45B2-99BE-6E0FE7563787}'
+    m_lastTimePsrt1: -94539264
+    m_lastTimePart2: -1999303290
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{EA4AE4B7-82CC-4180-8A7F-60DC16288D2C}'
+    m_lastTimePsrt1: -94539264
+    m_lastTimePart2: -1999303290
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{50585025-9B29-4882-A1F9-BC524D005086}'
+    m_lastTimePsrt1: -94539264
+    m_lastTimePart2: -1999303290
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{13CDBBBA-C6C2-436A-884A-82858D5B456A}'
+    m_lastTimePsrt1: -94539264
+    m_lastTimePart2: -1999303290
+    List: []
+  ExpandedItems:
+  - /TeddyBearVR_Maxime_WwiseProject
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 0
+  basePath: Audio/GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  callbackManagerBufferSize: 4
