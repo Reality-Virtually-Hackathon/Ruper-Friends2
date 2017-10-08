@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EA4AE4B7-82CC-4180-8A7F-60DC16288D2C}" SchemaVersion="80">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{EA4AE4B7-82CC-4180-8A7F-60DC16288D2C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainGame" ID="{DA9E715F-7528-4666-B231-C00F0CC791BB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Second_Creature" ID="{2796A1F5-6E1B-402A-89C6-213344AA3B04}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Fades" ID="{2DCA2178-1D53-41D6-92EF-FFAE137AF138}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AmbianceOutdoor" ID="{0DE7C1BB-10A7-431B-B4F4-337FAA153961}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music" ID="{B53F0FF2-C339-4678-8922-C867D6C22693}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Creature" ID="{DD04937F-0B5B-4978-A8E0-3A41BDE6102E}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ambiance" ID="{C1DC26A1-5223-4A11-B4C9-D226A8F90813}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Reach" ID="{D7B90C52-5E94-4C4D-971A-E38F19C420DE}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Missed" ID="{F3E2A520-08D2-4D27-8AFB-1DBA82895CF3}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Cry_Scared" ID="{94475C6C-957C-4D8A-8DC9-A2F2EB9C1993}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="No_Love" ID="{750DB930-C439-4EF2-B423-5E3BE0AB8E62}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Close_Door" ID="{02B242B2-D8F7-4F26-B7AB-707A4B01607B}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Teddy" ID="{F1889CC6-C890-4FC1-848D-9C042FE3B632}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

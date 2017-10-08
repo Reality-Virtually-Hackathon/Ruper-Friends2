@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C89C3D25-1039-4D68-ABDC-1C2794D5A8D8}" SchemaVersion="80">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{C89C3D25-1039-4D68-ABDC-1C2794D5A8D8}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="MainTitle" ID="{19D6A063-2264-4B4C-9D2A-52C73977E3FA}" ShortID="216206397">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{71698ACE-3DD8-4911-9301-7CBD594E93B1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Theme" ID="{89BAF6C8-001B-4D9E-852E-7277E58EAA0D}" ShortID="260883320">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="18303.2581453634"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{71698ACE-3DD8-4911-9301-7CBD594E93B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Theme_Celeste" ID="{662D8682-0B6C-47D0-93AA-0BB7D6E26C46}" ShortID="526706753">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vienna Instruments 01" ID="{4B5B6CF5-4AAA-4F25-9FBB-DB8A9707175E}" ShortID="919119390">
+											<Language>SFX</Language>
+											<AudioFile>Vienna Instruments 01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0EAFA47B-8EB0-4953-A30D-842FC4B1AE0D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8AD589F8-6F56-4A69-B8AB-C7E456028564}">
+											<ClipList>
+												<MusicClip Name="Vienna Instruments 01" ID="{4EA145F1-DB31-46D9-A066-FD1C83DFA812}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16839.6041666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Vienna Instruments 01" ID="{4B5B6CF5-4AAA-4F25-9FBB-DB8A9707175E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{44C50D41-BF71-437D-B135-FE37EE09030A}"/>
+								<MusicCue Name="Exit Cue" ID="{0959AEE5-2389-452C-ACE2-0A39A4B078D8}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16875"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{AB6E7A2B-AE57-4B4C-9888-044805A12FDB}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{4F777F5E-8C08-43B0-BB75-E0A891F4EED6}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{549A05CE-5015-4EF6-8A7D-47393912822B}" ShortID="159189563">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{1C9E3AAC-6637-4A0F-8A4C-8A7F828D4FA3}" ShortID="246270293">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Theme" ID="{89BAF6C8-001B-4D9E-852E-7277E58EAA0D}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Fades" ID="{7106FDE0-A379-48DD-8365-483733E8379D}" ShortID="538031028">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-37</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{71698ACE-3DD8-4911-9301-7CBD594E93B1}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Vienna Instruments 01-01" ID="{B8B52044-08EA-401C-9452-3A76DF97D8F3}" ShortID="263847931">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="6122.75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{71698ACE-3DD8-4911-9301-7CBD594E93B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Vienna Instruments 01-01" ID="{74C6EE4D-B709-4ED5-BC64-A82F7E6836D8}" ShortID="856670287">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vienna Instruments 01-01" ID="{E14C5DF5-4485-4281-BAE2-3B136065F4E8}" ShortID="961260832">
+											<Language>SFX</Language>
+											<AudioFile>Vienna Instruments 01-01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0309F6D1-807A-4B05-B5D8-7E3D57DBB3BF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A1328980-2BE6-4317-A6D2-6B9864CFBA85}">
+											<ClipList>
+												<MusicClip Name="Vienna Instruments 01-01" ID="{5FC45278-982A-4FC4-89BD-02953DED91D6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="6122.75"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Vienna Instruments 01-01" ID="{E14C5DF5-4485-4281-BAE2-3B136065F4E8}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D711D0E5-6C38-4A0D-AF66-8B383D2A4B6B}"/>
+								<MusicCue Name="Exit Cue" ID="{127D6031-5B6C-4FE3-8793-6538937C3CFF}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="6122.75"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Vienna Instruments 01-02" ID="{44A61093-79E1-417C-B002-59729DFB7B94}" ShortID="626436002">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="10581.3333333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{71698ACE-3DD8-4911-9301-7CBD594E93B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Vienna Instruments 01-02" ID="{252D4013-B262-4B7D-83F7-6E0B7F5B31B5}" ShortID="436493090">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vienna Instruments 01-02" ID="{A984AA85-0AED-41B3-8C20-0AAEA223CE16}" ShortID="284287322">
+											<Language>SFX</Language>
+											<AudioFile>Vienna Instruments 01-02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{65735EEA-17D2-4312-B857-5BAFAC78DE7A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{B1F4A081-CAF6-478A-B122-423CA3679907}">
+											<ClipList>
+												<MusicClip Name="Vienna Instruments 01-02" ID="{F7980B38-21B9-4EBA-AF1A-B044621D6AF8}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="10581.3333333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Vienna Instruments 01-02" ID="{A984AA85-0AED-41B3-8C20-0AAEA223CE16}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{072623D9-AEB1-4012-B823-0F40FB42C5C1}"/>
+								<MusicCue Name="Exit Cue" ID="{0647A8D4-9E08-46E0-9AB2-5D064E0AEDC5}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="10581.3333333333"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Vienna Instruments 01-03" ID="{72164BFB-283E-4A1E-BB78-FB7643EEAE63}" ShortID="302923335">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="4731.47916666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{71698ACE-3DD8-4911-9301-7CBD594E93B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Vienna Instruments 01-03" ID="{14215ECC-E8E9-4A1B-8869-B941DB53A47F}" ShortID="526845519">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vienna Instruments 01-03" ID="{F3D7B727-2950-4B84-BC42-C010DCA2351B}" ShortID="862454972">
+											<Language>SFX</Language>
+											<AudioFile>Vienna Instruments 01-03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FE7780D9-FDA0-4BEA-BF3F-974881B030C8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{22306147-792C-4B25-8445-81CF358BF12B}">
+											<ClipList>
+												<MusicClip Name="Vienna Instruments 01-03" ID="{FC0B8DDB-2168-4009-BB90-4074EC157991}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="4731.47916666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Vienna Instruments 01-03" ID="{F3D7B727-2950-4B84-BC42-C010DCA2351B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{7D663C50-872D-4F72-9110-A4F60867AA95}"/>
+								<MusicCue Name="Exit Cue" ID="{97BB0AEC-79FA-4936-88C9-62C01AE8866E}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="4731.47916666667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Vienna Instruments 01-04" ID="{B81D5E33-FAAC-44F5-B0CD-E0103ACB0B48}" ShortID="700909465">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="6567.02083333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{71698ACE-3DD8-4911-9301-7CBD594E93B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Vienna Instruments 01-04" ID="{64E8C8F3-07D9-43CE-A5F7-961194391D23}" ShortID="489915597">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vienna Instruments 01-04" ID="{9157ACCC-6195-4D22-9801-57B027B1E82B}" ShortID="292147463">
+											<Language>SFX</Language>
+											<AudioFile>Vienna Instruments 01-04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D80CF723-66D9-4C3A-B26F-41D6B89C306E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C6A7E963-B2B4-4C91-9D8A-6E5EDFDE757A}">
+											<ClipList>
+												<MusicClip Name="Vienna Instruments 01-04" ID="{28501B40-D1F5-4C32-AED2-BEB613C67DD9}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="6567.02083333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Vienna Instruments 01-04" ID="{9157ACCC-6195-4D22-9801-57B027B1E82B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{C4EF3F17-1267-43BB-A426-8118C32D08CA}"/>
+								<MusicCue Name="Exit Cue" ID="{4531C0E7-57B4-4D64-A354-18B8A8779CF9}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="6567.02083333333"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Vienna Instruments 01-05" ID="{187ADCB3-00B7-452F-9CAA-34A99442818C}" ShortID="563195423">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="13518.0208333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{71698ACE-3DD8-4911-9301-7CBD594E93B1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Vienna Instruments 01-05" ID="{AC78263C-BDBF-49F4-A979-83A7AE4D21FE}" ShortID="94216316">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2122F03-198F-475D-866E-36C33E5AECFF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vienna Instruments 01-05" ID="{FAABD996-3ECD-42EA-AE10-33EB90792EFA}" ShortID="210548357">
+											<Language>SFX</Language>
+											<AudioFile>Vienna Instruments 01-05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A08A58E0-F785-4970-833E-5797E138FC8B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{4CD73BE8-0248-4CDD-8AAB-FC30C7C03356}">
+											<ClipList>
+												<MusicClip Name="Vienna Instruments 01-05" ID="{B837AA51-5AD2-4934-9362-B0F1EF432D45}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="13518.0208333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Vienna Instruments 01-05" ID="{FAABD996-3ECD-42EA-AE10-33EB90792EFA}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{974FA560-112F-45BB-A037-624BC29247AB}"/>
+								<MusicCue Name="Exit Cue" ID="{1B2B44AB-EF78-4D8E-8DE0-A1AF3C1832CD}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="13518.0208333333"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{3110FF67-F401-4E23-B1E2-508F4AE66186}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{FA95C8AB-3DBC-4CFA-B395-491B1D114214}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{E71AD5CF-1F23-44C7-B2A7-54C80B6D7D3E}" ShortID="405601455">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="3"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{42D18A2C-95E0-4EBA-9754-7F3C7F57DDE5}" ShortID="706621752">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Vienna Instruments 01-01" ID="{B8B52044-08EA-401C-9452-3A76DF97D8F3}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{7BEED98D-3D15-4817-9E46-134BB34E63A2}" ShortID="5056648">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Vienna Instruments 01-02" ID="{44A61093-79E1-417C-B002-59729DFB7B94}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{E24C0E25-5305-4BEA-8762-C6BDDBEFA565}" ShortID="199117931">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Vienna Instruments 01-03" ID="{72164BFB-283E-4A1E-BB78-FB7643EEAE63}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{1AAF7663-A21E-4422-ABF0-D4B3192E4EF1}" ShortID="996089160">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Vienna Instruments 01-04" ID="{B81D5E33-FAAC-44F5-B0CD-E0103ACB0B48}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{363F52A2-85EE-45C2-B113-3B60FB832CBB}" ShortID="466290535">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Vienna Instruments 01-05" ID="{187ADCB3-00B7-452F-9CAA-34A99442818C}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

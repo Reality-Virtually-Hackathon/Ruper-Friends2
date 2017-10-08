@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{04170362-5059-42DA-85E9-1B11D3AF3FDD}" SchemaVersion="80">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{04170362-5059-42DA-85E9-1B11D3AF3FDD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SFX" ID="{0CF2C59F-28FE-4259-B5E1-F190B41C950A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Creature" ID="{DD04937F-0B5B-4978-A8E0-3A41BDE6102E}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AmbianceOutdoor" ID="{0DE7C1BB-10A7-431B-B4F4-337FAA153961}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Creature" ID="{DD04937F-0B5B-4978-A8E0-3A41BDE6102E}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Close_Door" ID="{02B242B2-D8F7-4F26-B7AB-707A4B01607B}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="No_Love" ID="{750DB930-C439-4EF2-B423-5E3BE0AB8E62}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Reach" ID="{D7B90C52-5E94-4C4D-971A-E38F19C420DE}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambiance" ID="{C1DC26A1-5223-4A11-B4C9-D226A8F90813}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cry_Scared" ID="{94475C6C-957C-4D8A-8DC9-A2F2EB9C1993}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Missed" ID="{F3E2A520-08D2-4D27-8AFB-1DBA82895CF3}" WorkUnitID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Missed" ID="{269B2E1F-4BD0-49C6-8D0F-9F5F1AA996BE}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

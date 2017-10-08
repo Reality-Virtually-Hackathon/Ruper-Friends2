@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{F176EE8D-5E8B-4789-84BD-8AEBE377B26E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Creature" ID="{DD04937F-0B5B-4978-A8E0-3A41BDE6102E}">
+					<ChildrenList>
+						<Action Name="" ID="{D7ED0963-F97D-409F-A350-621CE9D2EA2F}" ShortID="478703551">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creature" ID="{5DB75050-75F0-4300-9ECC-2E8D82F871B2}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambiance" ID="{C1DC26A1-5223-4A11-B4C9-D226A8F90813}">
+					<ChildrenList>
+						<Action Name="" ID="{D3EAE65B-DDE3-4194-A530-51B8EDE8A49E}" ShortID="758090989">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RoomTone" ID="{10C3D568-7AFE-444D-9798-B34474615F7B}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cry_Scared" ID="{94475C6C-957C-4D8A-8DC9-A2F2EB9C1993}">
+					<ChildrenList>
+						<Action Name="" ID="{D1388E4E-FD0A-4404-B4A8-C6B919B677E1}" ShortID="352729148">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Teddy" ID="{F1889CC6-C890-4FC1-848D-9C042FE3B632}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BEAAEC4C-9375-42C8-80FD-76A427FD15E2}" ShortID="1030888270">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cry_Scared" ID="{473B885B-307A-494C-A5FB-EBEEAA663576}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AmbianceOutdoor" ID="{0DE7C1BB-10A7-431B-B4F4-337FAA153961}">
+					<ChildrenList>
+						<Action Name="" ID="{E96950B2-FDE4-445B-B59B-72A2EB6159B1}" ShortID="206131743">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_Gen" ID="{61658BB6-F1AF-4480-9DEA-FAE3E2575E99}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Missed" ID="{F3E2A520-08D2-4D27-8AFB-1DBA82895CF3}">
+					<ChildrenList>
+						<Action Name="" ID="{C446F935-76EB-4024-9841-8D38F2B8B1F9}" ShortID="506964867">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Teddy" ID="{F1889CC6-C890-4FC1-848D-9C042FE3B632}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B5956B45-5F10-4B5E-A352-78D21BF1FD3B}" ShortID="368816368">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Missed" ID="{47C998A8-9A90-4E2A-8385-4B2DED0852B3}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="No_Love" ID="{750DB930-C439-4EF2-B423-5E3BE0AB8E62}">
+					<ChildrenList>
+						<Action Name="" ID="{9B7E75F2-ABE3-4D83-8133-560EAA4DC24A}" ShortID="381223151">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Teddy" ID="{F1889CC6-C890-4FC1-848D-9C042FE3B632}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FF622397-B005-48FE-B9F1-8C1BE4D3D75F}" ShortID="1069084792">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="No_Love" ID="{C3782F1F-997A-4990-BFB8-6CA359988285}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Reach" ID="{D7B90C52-5E94-4C4D-971A-E38F19C420DE}">
+					<ChildrenList>
+						<Action Name="" ID="{B2E05881-CBA5-476C-9F0E-D96D9B79E672}" ShortID="966093889">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Teddy" ID="{F1889CC6-C890-4FC1-848D-9C042FE3B632}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BC679068-FCA3-4D87-B74C-A39B6D8F6A41}" ShortID="259851440">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reach" ID="{AD7EA77B-FDD4-4F75-8BF4-D500FF612DCF}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Close_Door" ID="{02B242B2-D8F7-4F26-B7AB-707A4B01607B}">
+					<ChildrenList>
+						<Action Name="" ID="{AF07A707-2766-4863-983B-4CAD461CB9EC}" ShortID="108171554">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Teddy" ID="{F1889CC6-C890-4FC1-848D-9C042FE3B632}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C097FE84-D99C-424D-9207-E4ACDFFBF2BE}" ShortID="359113696">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creature_CloseDoor_01" ID="{DCD2050C-D897-406D-A385-8E25F202369D}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music" ID="{B53F0FF2-C339-4678-8922-C867D6C22693}"/>
+				<Event Name="Fades" ID="{2DCA2178-1D53-41D6-92EF-FFAE137AF138}"/>
+				<Event Name="Second_Creature" ID="{2796A1F5-6E1B-402A-89C6-213344AA3B04}">
+					<ChildrenList>
+						<Action Name="" ID="{E1793993-A45C-4724-ABF8-70E9933AE520}" ShortID="248093855">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Second_Creature" ID="{0ADDDBE9-296E-47F7-81DC-E4C944220193}" WorkUnitID="{0A4C78D9-255B-4717-ADB7-136EF1BFA8F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

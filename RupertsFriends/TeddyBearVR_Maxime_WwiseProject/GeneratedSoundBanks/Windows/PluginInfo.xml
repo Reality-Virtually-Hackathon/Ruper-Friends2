@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="TeddyBearVR_Maxime_WwiseProject" Platform="Windows" BasePlatform="Windows">
+	<Plugins>
+		<Plugin Name="Wwise Expander" ID="7143427" DLL="AkExpander"/>
+		<Plugin Name="Wwise Peak Limiter" ID="7208963" DLL="AkPeakLimiter"/>
+		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb"/>
+		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
+		<Plugin Name="Wwise Flanger" ID="8192003" DLL="AkFlanger"/>
+		<Plugin Name="Wwise Gain" ID="9109507" DLL="AkGain"/>
+	</Plugins>
+</PluginInfo>

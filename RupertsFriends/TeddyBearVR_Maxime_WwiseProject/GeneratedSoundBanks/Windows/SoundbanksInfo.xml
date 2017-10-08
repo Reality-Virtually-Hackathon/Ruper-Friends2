@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Downloads/Ruper-Friends2/RupertsFriends/TeddyBearVR_Maxime_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Downloads/Ruper-Friends2/RupertsFriends/TeddyBearVR_Maxime_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Downloads/Ruper-Friends2/RupertsFriends/TeddyBearVR_Maxime_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Downloads/Ruper-Friends2/RupertsFriends/TeddyBearVR_Maxime_WwiseProject/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1731745708" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainGame</ObjectPath>
+			<ShortName>MainGame</ShortName>
+			<Path>MainGame.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2981377429" Name="Ambiance" ObjectPath="\Events\Default Work Unit\Ambiance"/>
+				<Event Id="460275487" Name="AmbianceOutdoor" ObjectPath="\Events\Default Work Unit\AmbianceOutdoor"/>
+				<Event Id="1307892918" Name="Close_Door" ObjectPath="\Events\Default Work Unit\Close_Door"/>
+				<Event Id="2661483290" Name="Creature" ObjectPath="\Events\Default Work Unit\Creature"/>
+				<Event Id="3582559134" Name="Cry_Scared" ObjectPath="\Events\Default Work Unit\Cry_Scared"/>
+				<Event Id="2956814642" Name="Fades" ObjectPath="\Events\Default Work Unit\Fades"/>
+				<Event Id="384398350" Name="Missed" ObjectPath="\Events\Default Work Unit\Missed"/>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music"/>
+				<Event Id="1998986239" Name="No_Love" ObjectPath="\Events\Default Work Unit\No_Love"/>
+				<Event Id="3785525642" Name="Reach" ObjectPath="\Events\Default Work Unit\Reach"/>
+				<Event Id="2862271631" Name="Second_Creature" ObjectPath="\Events\Default Work Unit\Second_Creature"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="9616639" Language="SFX">
+					<ShortName>Snif_06.wav</ShortName>
+					<Path>SFX/Snif_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="15182467" Language="SFX">
+					<ShortName>Creature_MonsterBed_02.wav</ShortName>
+					<Path>SFX/Creature_MonsterBed_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="16242666" Language="SFX">
+					<ShortName>Creature_Reach_01.wav</ShortName>
+					<Path>SFX/Creature_Reach_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="62803233" Language="SFX">
+					<ShortName>Scared_05.wav</ShortName>
+					<Path>SFX/Scared_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="84994669" Language="SFX">
+					<ShortName>Creature_Footsteps_06.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="90728367" Language="SFX">
+					<ShortName>Creature_Smoke_2_01.wav</ShortName>
+					<Path>SFX/Creature_Smoke_2_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="93505576" Language="SFX">
+					<ShortName>Scared_01.wav</ShortName>
+					<Path>SFX/Scared_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="94627945" Language="SFX">
+					<ShortName>Missed_02.wav</ShortName>
+					<Path>SFX/Missed_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="104257092" Language="SFX">
+					<ShortName>Creature_MonsterBed_04.wav</ShortName>
+					<Path>SFX/Creature_MonsterBed_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="112459159" Language="SFX">
+					<ShortName>Scared_06.wav</ShortName>
+					<Path>SFX/Scared_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="119532348" Language="SFX">
+					<ShortName>Creature_Footsteps_05.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="135510241" Language="SFX">
+					<ShortName>Hug_Me_06.wav</ShortName>
+					<Path>SFX/Hug_Me_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="157233366" Language="SFX">
+					<ShortName>Audio 01-Rumble_01-001.wav</ShortName>
+					<Path>SFX/Audio 01-Rumble_01-001_1C9C67B2.wem</Path>
+				</File>
+				<File Id="171796068" Language="SFX">
+					<ShortName>Hug_Me_04.wav</ShortName>
+					<Path>SFX/Hug_Me_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="175229129" Language="SFX">
+					<ShortName>Creature_Smoke_1_01.wav</ShortName>
+					<Path>SFX/Creature_Smoke_1_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="200335735" Language="SFX">
+					<ShortName>Creature_Footsteps_08.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="205472635" Language="SFX">
+					<ShortName>No_Love_04.wav</ShortName>
+					<Path>SFX/No_Love_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="222756213" Language="SFX">
+					<ShortName>Sob_03.wav</ShortName>
+					<Path>SFX/Sob_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="227775755" Language="SFX">
+					<ShortName>Scared_04.wav</ShortName>
+					<Path>SFX/Scared_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="269075887" Language="SFX">
+					<ShortName>RoomTone-RoomTone_02-001.wav</ShortName>
+					<Path>SFX/RoomTone-RoomTone_02-001_F17FB28C.wem</Path>
+				</File>
+				<File Id="288131649" Language="SFX">
+					<ShortName>Creature_Smoke_2_01 copy.wav</ShortName>
+					<Path>SFX/Creature_Smoke_2_01 copy_1C9C67B2.wem</Path>
+				</File>
+				<File Id="305444800" Language="SFX">
+					<ShortName>Scared_02.wav</ShortName>
+					<Path>SFX/Scared_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="321318012" Language="SFX">
+					<ShortName>Hug_Me_02.wav</ShortName>
+					<Path>SFX/Hug_Me_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="364997142" Language="SFX">
+					<ShortName>Sob_05.wav</ShortName>
+					<Path>SFX/Sob_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="371069973" Language="SFX">
+					<ShortName>Creature_Footsteps_04.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="382678345" Language="SFX">
+					<ShortName>No_Love_03.wav</ShortName>
+					<Path>SFX/No_Love_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="427876622" Language="SFX">
+					<ShortName>Rain-Rain_01-001.wav</ShortName>
+					<Path>SFX/Rain-Rain_01-001_F17FB28C.wem</Path>
+				</File>
+				<File Id="455371231" Language="SFX">
+					<ShortName>Snif_04.wav</ShortName>
+					<Path>SFX/Snif_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="457902377" Language="SFX">
+					<ShortName>Impact_1-Impact_01 (2)-001.wav</ShortName>
+					<Path>SFX/Impact_1-Impact_01 (2)-001_1C9C67B2.wem</Path>
+				</File>
+				<File Id="462416242" Language="SFX">
+					<ShortName>Hug_Me_03.wav</ShortName>
+					<Path>SFX/Hug_Me_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="480342403" Language="SFX">
+					<ShortName>Creature_MonsterBed_05.wav</ShortName>
+					<Path>SFX/Creature_MonsterBed_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="511413574" Language="SFX">
+					<ShortName>Snif_02.wav</ShortName>
+					<Path>SFX/Snif_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="513414764" Language="SFX">
+					<ShortName>Hug_Me_05.wav</ShortName>
+					<Path>SFX/Hug_Me_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="544221361" Language="SFX">
+					<ShortName>No_Love_02.wav</ShortName>
+					<Path>SFX/No_Love_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="549295036" Language="SFX">
+					<ShortName>No_Love_05.wav</ShortName>
+					<Path>SFX/No_Love_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="599092661" Language="SFX">
+					<ShortName>No_Love_01.wav</ShortName>
+					<Path>SFX/No_Love_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="608226147" Language="SFX">
+					<ShortName>Creature_Reach_02.wav</ShortName>
+					<Path>SFX/Creature_Reach_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="621848597" Language="SFX">
+					<ShortName>Missed_01.wav</ShortName>
+					<Path>SFX/Missed_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="631038908" Language="SFX">
+					<ShortName>Creature_Footsteps_07.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="635714125" Language="SFX">
+					<ShortName>Rumble-Rumble_01 (3)-001.wav</ShortName>
+					<Path>SFX/Rumble-Rumble_01 (3)-001_1C9C67B2.wem</Path>
+				</File>
+				<File Id="639798525" Language="SFX">
+					<ShortName>Snif_03.wav</ShortName>
+					<Path>SFX/Snif_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="657522506" Language="SFX">
+					<ShortName>Creature_Footsteps_03.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="666301938" Language="SFX">
+					<ShortName>Creature_Reach_03.wav</ShortName>
+					<Path>SFX/Creature_Reach_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="673735100" Language="SFX">
+					<ShortName>Scared_03.wav</ShortName>
+					<Path>SFX/Scared_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="674671275" Language="SFX">
+					<ShortName>SFX_Thunder1-Take 1-001.wav</ShortName>
+					<Path>SFX/SFX_Thunder1-Take 1-001_1C9C67B2.wem</Path>
+				</File>
+				<File Id="698174376" Language="SFX">
+					<ShortName>Rain-Rain_01 (2)-001.wav</ShortName>
+					<Path>SFX/Rain-Rain_01 (2)-001_1C9C67B2.wem</Path>
+				</File>
+				<File Id="722476022" Language="SFX">
+					<ShortName>Creature_Smoke_1_01 copy.wav</ShortName>
+					<Path>SFX/Creature_Smoke_1_01 copy_1C9C67B2.wem</Path>
+				</File>
+				<File Id="737201777" Language="SFX">
+					<ShortName>Creature_MonsterBed_03.wav</ShortName>
+					<Path>SFX/Creature_MonsterBed_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="753296977" Language="SFX">
+					<ShortName>Creature_Rale_03.wav</ShortName>
+					<Path>SFX/Creature_Rale_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="754911538" Language="SFX">
+					<ShortName>Creature_Rale_02.wav</ShortName>
+					<Path>SFX/Creature_Rale_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="885619286" Language="SFX">
+					<ShortName>Creature_Rale_05.wav</ShortName>
+					<Path>SFX/Creature_Rale_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="913759019" Language="SFX">
+					<ShortName>Sniff_01.wav</ShortName>
+					<Path>SFX/Sniff_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="915071031" Language="SFX">
+					<ShortName>Creature_Rale_01.wav</ShortName>
+					<Path>SFX/Creature_Rale_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="931383555" Language="SFX">
+					<ShortName>Creature_MonsterBed_06.wav</ShortName>
+					<Path>SFX/Creature_MonsterBed_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="955443141" Language="SFX">
+					<ShortName>Snif_05.wav</ShortName>
+					<Path>SFX/Snif_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="972563873" Language="SFX">
+					<ShortName>Hug_Me_01.wav</ShortName>
+					<Path>SFX/Hug_Me_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="973874925" Language="SFX">
+					<ShortName>Impact_2-Impact_01 (3)-001.wav</ShortName>
+					<Path>SFX/Impact_2-Impact_01 (3)-001_1C9C67B2.wem</Path>
+				</File>
+				<File Id="980456234" Language="SFX">
+					<ShortName>Creature_MonsterBed_01.wav</ShortName>
+					<Path>SFX/Creature_MonsterBed_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="980602618" Language="SFX">
+					<ShortName>Creature_Footsteps_02.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1002117788" Language="SFX">
+					<ShortName>Creature_CloseDoor_01.wav</ShortName>
+					<Path>SFX/Creature_CloseDoor_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1017420353" Language="SFX">
+					<ShortName>Creature_Footsteps_01.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1047269799" Language="SFX">
+					<ShortName>SFX_Thunder1-001.wav</ShortName>
+					<Path>SFX/SFX_Thunder1-001_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1052571333" Language="SFX">
+					<ShortName>Creature_Rale_04.wav</ShortName>
+					<Path>SFX/Creature_Rale_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1061440001" Language="SFX">
+					<ShortName>Sob_01.wav</ShortName>
+					<Path>SFX/Sob_01_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

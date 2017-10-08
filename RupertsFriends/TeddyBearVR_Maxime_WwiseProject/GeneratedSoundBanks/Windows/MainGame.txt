@@ -1,0 +1,87 @@
+Event	ID	Name			Wwise Object Path	Notes
+	384398350	Missed			\Default Work Unit\Missed	
+	460275487	AmbianceOutdoor			\Default Work Unit\AmbianceOutdoor	
+	1307892918	Close_Door			\Default Work Unit\Close_Door	
+	1998986239	No_Love			\Default Work Unit\No_Love	
+	2661483290	Creature			\Default Work Unit\Creature	
+	2862271631	Second_Creature			\Default Work Unit\Second_Creature	
+	2956814642	Fades			\Default Work Unit\Fades	
+	2981377429	Ambiance			\Default Work Unit\Ambiance	
+	3582559134	Cry_Scared			\Default Work Unit\Cry_Scared	
+	3785525642	Reach			\Default Work Unit\Reach	
+	3991942870	Music			\Default Work Unit\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	231810940	Wwise Gain (Custom)	Wwise Gain			
+	244210262	Extreme_Limiting_2 (Custom)	Wwise Peak Limiter			
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	1252796875	Light_Expander	Wwise Expander			
+	1674078407	Chorus_Like	Wwise Flanger			
+	2662085913	Large_Church1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9616639	Snif_06	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Snif_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Sniffs\Snif_06		65680
+	15182467	Creature_MonsterBed_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_MonsterBed_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Second_Creature\Smoky\Creature_voice\Creature_MonsterBed_02		610480
+	16242666	Creature_Reach_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Reach_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Reach\Creature_Reach_01		417492
+	62803233	Scared_05	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Scared_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Scared\Scared_05		809868
+	84994669	Creature_Footsteps_06	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Footsteps_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_06		576892
+	90728367	Creature_Smoke_2_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Smoke_2_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Smoke\Creature_Smoke_2_01		1527064
+	93505576	Scared_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Scared_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Scared\Scared_01		775816
+	94627945	Missed_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Missed_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Missed\Missed_02		672372
+	104257092	Creature_MonsterBed_04	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_MonsterBed_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Second_Creature\Smoky\Creature_voice\Creature_MonsterBed_04		1182336
+	112459159	Scared_06	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Scared_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Scared\Scared_06		353416
+	119532348	Creature_Footsteps_05	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Footsteps_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_05		1234964
+	135510241	Hug_Me_06	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Hug_Me_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Hug\Hug_Me_06		460636
+	157233366	Audio 01-Rumble_01-001	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Audio 01-Rumble_01-001_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Ambiance_Gen\Thunder_Loop\Thunder\Rumble\Audio 01-Rumble_01-001		1700968
+	171796068	Hug_Me_04	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Hug_Me_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Hug\Hug_Me_04		889008
+	175229129	Creature_Smoke_1_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Smoke_1_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Smoke\Creature_Smoke_1_01		1433552
+	200335735	Creature_Footsteps_08	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Footsteps_08_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_08		635624
+	205472635	No_Love_04	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\No_Love_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\No_Love\No_Love_04		637052
+	222756213	Sob_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Sob_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Sobs\Sob_03		551116
+	227775755	Scared_04	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Scared_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Scared\Scared_04		1333280
+	269075887	RoomTone	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\RoomTone-RoomTone_02-001_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\RoomTone		16365376
+	288131649	Smoke_2	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Smoke_2_01 copy_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Second_Creature\Smoky\Smoke_2		1527064
+	305444800	Scared_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Scared_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Scared\Scared_02		843928
+	321318012	Hug_Me_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Hug_Me_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Hug\Hug_Me_02		859736
+	364997142	Sob_05	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Sob_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Sobs\Sob_05		714392
+	371069973	Creature_Footsteps_04	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Footsteps_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_04		287340
+	382678345	No_Love_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\No_Love_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\No_Love\No_Love_03		626192
+	427876622	Rain_Loop	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Rain-Rain_01-001_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Ambiance_Gen\Rain\Rain_Loop		10368036
+	455371231	Snif_04	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Snif_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Sniffs\Snif_04		283908
+	457902377	Impact_1-Impact_01 (2)-001	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Impact_1-Impact_01 (2)-001_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Ambiance_Gen\Thunder_Loop\Thunder\Boom\Impact_1-Impact_01 (2)-001		576064
+	462416242	Hug_Me_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Hug_Me_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Hug\Hug_Me_03		571732
+	480342403	Creature_MonsterBed_05	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_MonsterBed_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Second_Creature\Smoky\Creature_voice\Creature_MonsterBed_05		1017424
+	511413574	Snif_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Snif_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Sniffs\Snif_02		312292
+	513414764	Hug_Me_05	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Hug_Me_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Hug\Hug_Me_05		520156
+	544221361	No_Love_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\No_Love_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\No_Love\No_Love_02		665548
+	549295036	No_Love_05	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\No_Love_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\No_Love\No_Love_05		599360
+	599092661	No_Love_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\No_Love_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\No_Love\No_Love_01		880668
+	608226147	Creature_Reach_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Reach_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Reach\Creature_Reach_02		407312
+	621848597	Missed_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Missed_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Missed\Missed_01		729536
+	631038908	Creature_Footsteps_07	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Footsteps_07_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_07		771880
+	635714125	Rumble-Rumble_01 (3)-001	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Rumble-Rumble_01 (3)-001_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Ambiance_Gen\Thunder_Loop\Thunder\Rumble\Rumble-Rumble_01 (3)-001		2987548
+	639798525	Snif_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Snif_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Sniffs\Snif_03		553824
+	657522506	Creature_Footsteps_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Footsteps_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_03		539428
+	666301938	Creature_Reach_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Reach_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Reach\Creature_Reach_03		437856
+	673735100	Scared_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Scared_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Scared\Scared_03		546556
+	674671275	SFX_Thunder2	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\SFX_Thunder1-Take 1-001_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Ambiance_Gen\Thunder_Loop\Thunder\Impact\SFX_Thunder2		1141700
+	698174376	Rain_Start	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Rain-Rain_01 (2)-001_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Ambiance_Gen\Rain\Rain_Start		1464248
+	722476022	Smoke_1	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Smoke_1_01 copy_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Second_Creature\Smoky\Smoke_1		1433552
+	737201777	Creature_MonsterBed_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_MonsterBed_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Second_Creature\Smoky\Creature_voice\Creature_MonsterBed_03		610484
+	753296977	Creature_Rale_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Rale_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Rale\Creature_Rale_03		493656
+	754911538	Creature_Rale_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Rale_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Rale\Creature_Rale_02		694124
+	885619286	Creature_Rale_05	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Rale_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Rale\Creature_Rale_05		790016
+	913759019	Sniff_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Sniff_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Sniffs\Sniff_01		411956
+	915071031	Creature_Rale_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Rale_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Rale\Creature_Rale_01		626412
+	931383555	Creature_MonsterBed_06	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_MonsterBed_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Second_Creature\Smoky\Creature_voice\Creature_MonsterBed_06		890252
+	955443141	Snif_05	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Snif_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Sniffs\Snif_05		335180
+	972563873	Hug_Me_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Hug_Me_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Hug\Hug_Me_01		725088
+	973874925	Impact_2-Impact_01 (3)-001	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Impact_2-Impact_01 (3)-001_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Ambiance_Gen\Thunder_Loop\Thunder\Boom\Impact_2-Impact_01 (3)-001		576064
+	980456234	Creature_MonsterBed_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_MonsterBed_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Second_Creature\Smoky\Creature_voice\Creature_MonsterBed_01		356144
+	980602618	Creature_Footsteps_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Footsteps_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_02		810120
+	1002117788	Creature_CloseDoor_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_CloseDoor_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Creature_CloseDoor_01		498944
+	1017420353	Creature_Footsteps_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Footsteps_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_01		451060
+	1047269799	SFX_Thunder1	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\SFX_Thunder1-001_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Ambiance_Gen\Thunder_Loop\Thunder\Impact\SFX_Thunder1		2211256
+	1052571333	Creature_Rale_04	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Creature_Rale_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Rale\Creature_Rale_04		776316
+	1061440001	Sob_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Windows\SFX\Sob_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teddy\Cry_Scared\Sobs\Sob_01		448140
+
