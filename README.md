@@ -2,6 +2,9 @@ VR MIT Hackathon 2017
 
 Team Ruperts Friends
 
+PLEASE OPEN THE DEFAULT SCENE TO ACESS THE DEMO
+
+
 
 ##Environment
 **Plattform:** PC,HTC Vive
