@@ -81,10 +81,6 @@ public class controllerManager : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerExit(){
 
-		teddyAnim.settriger
-
-	}
 }
 
