@@ -1,3 +1,18 @@
+Project for Virtual Reality Hackathon 2017 MIT MediaLab
+
+Team: RupertsFriends
+
+Platform: PC,HTC Vive
+Development tools: Unity,Maya, Blender,Photoshop, Mono, Visual Studio  
+SDKs: Wwise (Audio)
+APIs: SteamVR
+Assets: 3D Warehouse Assets ( see 3D Asset List) 
+Libraries ( SteamVR) 
+
+
+
+
+
 We used the following Third Party Assets: 
 
 3D Models under Creative Common from SketchUp 3d Warehouse Terms of Use ( https://3dwarehouse.sketchup.com/tos.html ) 
