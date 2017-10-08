@@ -10,6 +10,7 @@ public class controllerManager : MonoBehaviour {
 
 	public Rigidbody[] rbs;
 	public GameObject teddy;
+    public GameObject Spot;
 	private Valve.VR.EVRButtonId gripButton = Valve.VR.EVRButtonId.k_EButton_Grip;
 
 	public GameObject teddyController,  headset,otherController;
@@ -119,13 +120,16 @@ public class controllerManager : MonoBehaviour {
 		if (gripButtonUp) {
 			Debug.Log ("Grip Button was just released");
 		}
-		if (triggerButtonDown) {		// interact
+		if (triggerButtonDown) {        // interact
 
-			//teddyAnim.SetTrigger ("interact");
+            //teddyAnim.SetTrigger ("interact");
+            Spot.SetActive(true);
 			Debug.Log ("Grip Button was just pressed");
 		}
 		if (triggerButtonUp) {
-			Debug.Log ("Grip Button was just released");
+
+            Spot.SetActive(false);
+            Debug.Log ("Grip Button was just released");
 		}
 
 		teddyAnim.SetFloat ("distance", (CameraPos.transform.position - ControllerPos.transform.position).sqrMagnitude);
@@ -144,17 +148,27 @@ public class controllerManager : MonoBehaviour {
 	}
 
 
-	void OnTriggerEnter(Collider obj){
+    void OnTriggerEnter(Collider obj)
+    {
 
-		if (triggerButtonDown) {			// interact with the object only if trigger is held down and the teddy is in it's proximity
-			teddyAnim.SetTrigger ("interact");
-			debugger.text = "interacting";
-		}
-	}
+        if (triggerButtonDown && obj.gameObject.tag.Equals("doorKnob"))
+        {           // interact with the object only if trigger is held down and the teddy is in it's proximity
+            teddyAnim.SetTrigger("interact");
+            debugger.text = "interacting";
 
-	void OnTriggerExit(){
+            //TODO: trigger excited animation/sounds
+
+            //turn on monster's eyes
+
+            //teddy asks to hold him tight, 
+        }
 
 
-	}
+        if (triggerButtonDown && obj.gameObject.tag.Equals("monster"))
+        {
+            //destroy monster
+        }
+
+    }
 }
 

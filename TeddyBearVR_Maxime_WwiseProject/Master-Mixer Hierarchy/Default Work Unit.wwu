@@ -3,7 +3,25 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{B2122F03-198F-475D-866E-36C33E5AECFF}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="Ambiance" ID="{28BE8612-CEF0-499A-81D4-098FB1D7312E}"/>
+						<Bus Name="Teddy" ID="{33E0589F-C670-4E6D-91BC-FEE442565205}">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="My_Closet" ID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>

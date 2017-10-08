@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D2D5EC3B-A9B2-403B-B526-0106A9757488}" SchemaVersion="80">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{D2D5EC3B-A9B2-403B-B526-0106A9757488}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D2D5EC3B-A9B2-403B-B526-0106A9757488}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Teddy_state" ID="{F536ED9F-DBD0-4492-9656-C9BF617E638D}">
+					<ChildrenList>
+						<State Name="None" ID="{DF5EB6DC-EBFF-43E3-B98A-88A52C028AB3}"/>
+						<State Name="Crying" ID="{0E5CA1F4-9C64-4A3C-8108-C1FD06B3850C}"/>
+						<State Name="Scared" ID="{88C9C980-E112-4FDB-8118-64BDCE41211D}"/>
+						<State Name="Hug" ID="{5395C5F3-A5AB-4BB5-9B66-D455257573D7}"/>
+						<State Name="Missed" ID="{269B2E1F-4BD0-49C6-8D0F-9F5F1AA996BE}"/>
+						<State Name="NoLoved" ID="{145E9286-77AF-434C-8616-3090E8FCBC46}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

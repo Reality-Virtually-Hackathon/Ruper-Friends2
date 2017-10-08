@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2661483290	Creature			\Default Work Unit\Creature	
+
+Effect plug-ins	ID	Name	Type				Notes
+	231810940	Wwise Gain (Custom)	Wwise Gain			
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	1252796875	Light_Expander	Wwise Expander			
+	1674078407	Chorus_Like	Wwise Flanger			
+	2662085913	Large_Church1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	84994669	Creature_Footsteps_06	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Footsteps_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_06		576892
+	90728367	Creature_Smoke_2_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Smoke_2_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Smoke\Creature_Smoke_2_01		1527064
+	119532348	Creature_Footsteps_05	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Footsteps_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_05		1234964
+	175229129	Creature_Smoke_1_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Smoke_1_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Smoke\Creature_Smoke_1_01		1433552
+	200335735	Creature_Footsteps_08	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Footsteps_08_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_08		635624
+	371069973	Creature_Footsteps_04	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Footsteps_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_04		287340
+	631038908	Creature_Footsteps_07	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Footsteps_07_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_07		771880
+	657522506	Creature_Footsteps_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Footsteps_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_03		539428
+	753296977	Creature_Rale_03	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Rale_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Rale\Creature_Rale_03		493656
+	754911538	Creature_Rale_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Rale_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Rale\Creature_Rale_02		694124
+	885619286	Creature_Rale_05	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Rale_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Rale\Creature_Rale_05		790016
+	915071031	Creature_Rale_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Rale_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Rale\Creature_Rale_01		626412
+	980602618	Creature_Footsteps_02	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Footsteps_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_02		810120
+	1017420353	Creature_Footsteps_01	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Footsteps_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\FootSteps\Creature_Footsteps_01		451060
+	1052571333	Creature_Rale_04	Y:\Downloads\Ruper-Friends2\RupertsFriends\TeddyBearVR_Maxime_WwiseProject\.cache\Mac\SFX\Creature_Rale_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Select\Creature\Rale\Creature_Rale_04		776316
+

@@ -1,0 +1,20 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2928765279	Teddy_state			\Default Work Unit\Teddy_state	
+
+State	ID	Name	State Group			Notes
+	384398350	Missed	Teddy_state			
+	646625287	Hug	Teddy_state			
+	748895195	None	Teddy_state			
+	820940617	Scared	Teddy_state			
+	2501187792	NoLoved	Teddy_state			
+	3672060053	Crying	Teddy_state			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	275540413	Teddy			\Default Work Unit\Master Audio Bus\Teddy	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	2981377429	Ambiance			\Default Work Unit\Master Audio Bus\Ambiance	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2945072214	My_Closet	Wwise RoomVerb			
+

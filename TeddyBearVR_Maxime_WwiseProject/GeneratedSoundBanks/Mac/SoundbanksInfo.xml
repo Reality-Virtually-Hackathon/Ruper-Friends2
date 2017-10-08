@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Downloads/Ruper-Friends2/RupertsFriends/TeddyBearVR_Maxime_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Downloads/Ruper-Friends2/RupertsFriends/TeddyBearVR_Maxime_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Downloads/Ruper-Friends2/RupertsFriends/TeddyBearVR_Maxime_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/maxime/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Downloads/Ruper-Friends2/RupertsFriends/TeddyBearVR_Maxime_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1731745708" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainGame</ObjectPath>
+			<ShortName>MainGame</ShortName>
+			<Path>MainGame.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2661483290" Name="Creature" ObjectPath="\Events\Default Work Unit\Creature"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="84994669" Language="SFX">
+					<ShortName>Creature_Footsteps_06.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="90728367" Language="SFX">
+					<ShortName>Creature_Smoke_2_01.wav</ShortName>
+					<Path>SFX/Creature_Smoke_2_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="119532348" Language="SFX">
+					<ShortName>Creature_Footsteps_05.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="175229129" Language="SFX">
+					<ShortName>Creature_Smoke_1_01.wav</ShortName>
+					<Path>SFX/Creature_Smoke_1_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="200335735" Language="SFX">
+					<ShortName>Creature_Footsteps_08.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="371069973" Language="SFX">
+					<ShortName>Creature_Footsteps_04.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="631038908" Language="SFX">
+					<ShortName>Creature_Footsteps_07.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="657522506" Language="SFX">
+					<ShortName>Creature_Footsteps_03.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="753296977" Language="SFX">
+					<ShortName>Creature_Rale_03.wav</ShortName>
+					<Path>SFX/Creature_Rale_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="754911538" Language="SFX">
+					<ShortName>Creature_Rale_02.wav</ShortName>
+					<Path>SFX/Creature_Rale_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="885619286" Language="SFX">
+					<ShortName>Creature_Rale_05.wav</ShortName>
+					<Path>SFX/Creature_Rale_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="915071031" Language="SFX">
+					<ShortName>Creature_Rale_01.wav</ShortName>
+					<Path>SFX/Creature_Rale_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="980602618" Language="SFX">
+					<ShortName>Creature_Footsteps_02.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1017420353" Language="SFX">
+					<ShortName>Creature_Footsteps_01.wav</ShortName>
+					<Path>SFX/Creature_Footsteps_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1052571333" Language="SFX">
+					<ShortName>Creature_Rale_04.wav</ShortName>
+					<Path>SFX/Creature_Rale_04_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
