@@ -32,3 +32,13 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.fbx
+RupertsFriends/Assets/3D Assets/remy@Idle.fbx.meta
+*.meta
+*.meta
+RupertsFriends/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+RupertsFriends/Assets/3D Assets/remy@Idle.fbx.meta
+RupertsFriends/Library/ScriptAssemblies/Assembly-CSharp.dll
+TeddyBearVR_Maxime/Assets/3D Assets/remy@Idle.fbx.meta
+Assets/3D Assets/remy@Idle.fbx.meta
+RupertsFriends/Assets/3D Assets/remy@Idle.fbx.meta
